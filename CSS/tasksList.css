@@ -44,3 +44,7 @@
     background-color: teal;
     color: white;
 }
+
+.tasksList__listItem--done{
+    text-decoration: line-through;
+}
