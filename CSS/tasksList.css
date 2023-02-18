@@ -48,3 +48,35 @@
 .tasksList__listItem--done{
     text-decoration: line-through;
 }
+
+.tasksList__listItem{
+    align-self: center;
+    margin: 10px;
+}
+
+.tasksList__doneButton{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    color: white;
+    margin: 10px;
+}
+
+.tasksList__list{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 20fr 1fr;
+    margin: 10px;
+    padding: 0;
+}
+
+.tasksList__removeButton{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    color: white;  
+    margin: 10px;
+}
+
