@@ -1,10 +1,9 @@
 .tasksList {
     display: grid;
-    grid-template-rows: repeat(minmax(70px, auto));
+    grid-template-rows: repeat(3, minmax(70px, auto));
     grid-template-columns: 800px;
     justify-content: center;
-    align-items: center;
-    grid-gap: 10px;
+    align-items: flex;
     margin: 20px;
 
 }
@@ -52,6 +51,7 @@
 .tasksList__listItem{
     align-self: center;
     margin: 10px;
+    border-bottom: 1px solid rgb(194, 194, 194);
 }
 
 .tasksList__doneButton{
@@ -80,3 +80,17 @@
     margin: 10px;
 }
 
+.tasksList__header{
+    border-bottom: 1px solid rgb(194, 194, 194);
+    display: grid;
+}
+
+.tasksList__tasksMaker{
+    margin-bottom: 20px;
+}
+
+.tasksList__legend{
+    border-bottom: 1px solid rgb(194, 194, 194);
+    display: grid;
+
+}
