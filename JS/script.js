@@ -76,6 +76,8 @@
         }
 
         addNewTask(newTaskContent);
+
+        document.querySelector(".js-newTask").focus();
     }
 
 
@@ -86,7 +88,6 @@
         const form = document.querySelector(".js-form");
 
         form.addEventListener("submit", onFormSubmit);
-
 
     };
 
