@@ -9,6 +9,12 @@
 
 .body {
     background-color: #eee;
-    margin: auto;
     font-family: 'Roboto', sans-serif;
+    margin: 0 100px;
+}
+
+@media (max-width: 800px) {
+    .body{
+        margin: 0 0;
+    }
 }

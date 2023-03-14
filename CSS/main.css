@@ -1,7 +1,6 @@
 .tasksList {
     display: grid;
     grid-template-rows: repeat(3, minmax(70px, auto));
-    grid-template-columns: 800px;
     justify-content: center;
     align-items: flex;
     margin: 20px;
@@ -52,6 +51,8 @@
     align-self: center;
     margin: 10px;
     border-bottom: 1px solid rgb(194, 194, 194);
+    word-wrap: break-word;
+    overflow-x: auto;
 }
 
 .tasksList__doneButton{
@@ -69,6 +70,7 @@
     grid-template-columns: 1fr 20fr 1fr;
     margin: 10px;
     padding: 0;
+    word-wrap: break-word;
 }
 
 .tasksList__removeButton{
